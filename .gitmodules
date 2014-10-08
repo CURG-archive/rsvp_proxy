@@ -1,0 +1,3 @@
+[submodule "src/rpcz"]
+	path = src/rpcz
+	url = git@github.com:CURG/rpcz.git
