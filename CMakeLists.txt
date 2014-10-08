@@ -6,6 +6,7 @@ project(rsvp_proxy)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   rsvp_msgs
+  rospy
 )
 
 ## System dependencies are found with CMake's conventions
