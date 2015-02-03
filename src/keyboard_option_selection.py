@@ -47,7 +47,7 @@ class KeyboardOptionSelection(object):
 
         pygame.display.flip()
 
-        while self.options:
+        while self.options and self.running:
             pygame.time.wait(100)
 
     def clear(self):
